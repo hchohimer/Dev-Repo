@@ -1,14 +1,35 @@
 /*font-family: 'Rubik', sans-serif;
 font-family: 'Quicksand', sans-serif;*/
 /*font-family: 'Cabin', sans-serif;*/
+/*rgb(211,241,239)*/
+/*rgb(161,188,217)*/
+/*rgb(246,236,91)*/
+/*rgb(244,153,80)*/
+/*rgb(244,119,108)*/
 
 body{
+  margin: 0;
+  text-align: center;
   font-family: 'Cabin', sans-serif;
   text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: rgb(211,241,239);
 }
 header{
   font-family: 'Quicksand', sans-serif;
+  /*width: 100%;*/
+  margin: 50px;
 }
+article{
+  width: 100%;
+  background-color: tan;
+  padding: 20px;
+  font-size: 1.2em;
+  position: relative;
+
+}
+
 
 .projects{
   margin-top: 10px;
@@ -17,4 +38,13 @@ header{
   border-color: blue;
   border-radius: 2px;
   font-family: 'Rubik', sans-serif;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  top: 100px;
+}
+
+a{
+    margin: 10px;
+    background-color: green;
 }
