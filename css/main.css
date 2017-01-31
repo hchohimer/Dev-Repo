@@ -23,7 +23,7 @@ header{
 }
 article{
   width: 100%;
-  background-color: tan;
+  background-color: rgb(161,188,217);
   padding: 20px;
   font-size: 1.2em;
   position: relative;
@@ -31,12 +31,12 @@ article{
 }
 
 
-.projects{
+.projectbox{
   margin-top: 10px;
   border-width: 30%;
-  border-style: groove;
-  border-color: blue;
-  border-radius: 2px;
+  border-style: solid;
+  border-color: rgb(161,188,217);
+  border-radius: 5px;
   font-family: 'Rubik', sans-serif;
   display: inline-flex;
   flex-direction: column;
@@ -44,7 +44,12 @@ article{
   top: 100px;
 }
 
-a{
+.project{
     margin: 10px;
-    background-color: green;
+    background-color: rgb(161,188,217);
+    border-radius: 10px;
+}
+
+a:hover{
+  color: rgb(246,236,91);
 }
