@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Bahiana|Cabin|Mukta+Vaani:200,400,700");
+body {
+  background: #703030;
+  text-align: center;
+  font-family: "Mukta Vaani", sans-serif; }
+
+h1, h2 {
+  font-family: "Bahiana", cursive; }
+
+nav, article {
+  background: #e3cda4;
+  border: solid 2px #7e827a;
+  padding: 10px 20px; }
+
+/*# sourceMappingURL=main.css.map */

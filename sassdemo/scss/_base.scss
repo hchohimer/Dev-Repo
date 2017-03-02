@@ -1,0 +1,13 @@
+body{
+  background: $bgcolor;
+  text-align: center;
+  font-family: $copyfont;
+}
+
+h1, h2 {
+  font-family: $headfont;
+}
+
+nav, article {
+  @include box;
+}
