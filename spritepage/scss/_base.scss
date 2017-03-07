@@ -1,0 +1,35 @@
+@import '../img/icon/*.png';
+@include all-icon-sprites;
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  a{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    // box-shadow: 5px 6px 10px rgb(40,40,40);
+    span{
+      position: absolute;
+      top: -9999em;
+      left: -9999em;
+    }//span
+  }//a
+}//li
+
+ul{
+  list-style: none;
+}
+
+
+header{
+  text-align: center;
+}
+nav{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
