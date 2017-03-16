@@ -573,6 +573,8 @@ article {
 
 .projectbox {
   margin-top: 10px;
+  margin-left: 8%;
+  width: 100%;
   border-width: 30%;
   border-style: solid;
   border-color: #a1bcd9;
