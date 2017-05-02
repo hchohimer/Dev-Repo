@@ -58,6 +58,10 @@
   background-position: 0 -1400px;
 }
 
+html {
+  background-color: #282828;
+}
+
 li {
   display: inline-block;
   list-style: none;
@@ -80,6 +84,8 @@ ul {
 
 header {
   text-align: center;
+  padding-top: 50px;
+  color: whitesmoke;
 }
 
 nav {

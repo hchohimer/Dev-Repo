@@ -1,6 +1,11 @@
 @import '../img/icon/*.png';
 @include all-icon-sprites;
 
+html{
+  background-color: rgb(40,40,40);
+}
+
+
 li {
   display: inline-block;
   list-style: none;
@@ -25,6 +30,8 @@ ul{
 
 header{
   text-align: center;
+  padding-top: 50px;
+  color: whitesmoke;
 }
 nav{
   text-align: center;
